@@ -4,7 +4,7 @@
 <xsl:template match="/">
 <html>
     <body>
-        <h1>Biblioteca personal de Ana</h1>
+        <h1>Mi biblioteca personal de Juan Ramón Salguero Mateos</h1>
         <table>
             <tr bgcolor="AA0150">
                 <th>ISBN</th>

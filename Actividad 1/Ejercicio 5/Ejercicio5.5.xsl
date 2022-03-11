@@ -4,13 +4,13 @@
 <xsl:template match="/">
 <html>
 <body>
-    <h1>Ejemplo plantilla</h1>
+    <h1> plantilla</h1>
     <xsl:apply-templates/>
 </body>
 </html>
 </xsl:template>
 <xsl:template match="libreria">
-    <h2>Mi biblioteca</h2>
+    <h2>Mi biblioteca personal de Juan Ramón Salguero Mateos</h2>
     <table>
         <tr bgcolor="AA0150">
             <th>ISBN</th>

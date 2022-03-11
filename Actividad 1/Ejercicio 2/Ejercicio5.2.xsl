@@ -13,7 +13,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <th>Precio</th>
         </tr>
     <!--<xsl:for-each select="Librería/Libro[Autor='Carmen Mola']">-->
-        <xsl:for-each select="Librería/Libro[Autor!='Carmen Mola']">
+        <!--<xsl:for-each select="Librería/Libro[Autor!='Carmen Mola']">-->
+        <xsl:for-each select="Librería/Libro">
         <xsl:sort select="Precio"/>
         <tr>
             <td><xsl:value-of select="ISBN"/></td>

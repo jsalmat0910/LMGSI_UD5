@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="CDs_1.xsl"?>
+<bibliotecacd>
+    <cd>
+        <titulo> The Best Of David Guetta </titulo>
+        <artista> David Guetta </artista>
+        <cancion tiempo="328"> Baby when the light </cancion>
+        <cancion tiempo="310"> When love takes over </cancion>
+        <cancion tiempo="301"> Gettin'over </cancion>
+        <cancion tiempo="432"> Delirious </cancion>
+        <cancion tiempo="411"> Do something love </cancion>
+        <cancion tiempo="400"> Always </cancion>
+        <cancion tiempo="712"> Love is gone </cancion>
+        <cancion tiempo="303"> Winner of the game </cancion>
+        <cancion tiempo="425"> Take me away </cancion>
+        <cancion tiempo="316"> One love </cancion>
+        <sello> Star Mark </sello>
+        <anyo> 2010 </anyo>
+    </cd>
+    <cd>
+        <titulo> Emmanuel </titulo>
+        <artista> Anuel AA </artista>
+        <cancion tiempo="334"> No llores mujer </cancion>
+        <cancion tiempo="332"> Reggaetonera </cancion>
+        <cancion tiempo="419"> Narco </cancion>
+        <cancion tiempo="342"> Bandido </cancion>
+        <sello> Sony Music </sello>
+        <anyo> 2020 </anyo>
+    </cd>
+    <cd>
+        <titulo> Oasis </titulo>
+        <artista> Bad Bunny </artista>
+        <cancion tiempo="307"> Mojaita </cancion>
+        <cancion tiempo="318"> Cuidao por ahí </cancion>
+        <cancion tiempo="403"> La cancion </cancion>
+        <cancion tiempo="431"> Odio </cancion>
+        <cancion tiempo="410"> Yo le llego </cancion>
+        <sello> Legendury Beatz </sello>
+        <anyo> 2019 </anyo>
+    </cd>
+    <cd>
+        <titulo> Terral </titulo>
+        <artista> Pablo Alboran </artista>
+        <cancion tiempo="401"> Por fin </cancion>
+        <cancion tiempo="421"> Ecos </cancion>
+        <cancion tiempo="344"> Esta permitido </cancion>
+        <cancion tiempo="412"> Ahogandome en tu adios </cancion>
+        <cancion tiempo="417"> Un buen amor </cancion>
+        <cancion tiempo="424"> Gracias </cancion>
+        <cancion tiempo="348"> Despidete </cancion>
+        <sello> Warner Music Spain </sello>
+        <anyo> 2014 </anyo>
+    </cd>
+    <cd>
+        <titulo> Camino, fuego, libertad </titulo>
+        <artista> Pablo Lopez </artista>
+        <cancion tiempo="349"> El camino </cancion>
+        <cancion tiempo="401"> El gato </cancion>
+        <cancion tiempo="331"> El dobleuve </cancion>
+        <cancion tiempo="342"> El teléfono </cancion>
+        <cancion tiempo="358"> El futuro </cancion>
+        <sello> Universal Music Spain S.L. </sello>
+        <anyo> 2017 </anyo>
+    </cd>
+    <cd>
+        <titulo> Seven </titulo>
+        <artista> Martin Garrix </artista>
+        <cancion tiempo="324"> WIEE </cancion>
+        <cancion tiempo="315"> Spotless </cancion>
+        <cancion tiempo="305"> Welcome </cancion>
+        <cancion tiempo="316"> Make up your mind </cancion>
+        <cancion tiempo="324"> Sun is never going down </cancion>
+        <cancion tiempo="354"> Hold on y believe </cancion>
+        <cancion tiempo="341"> Together </cancion>
+        <sello> Epic Amsterdam </sello>
+        <anyo> 2016 </anyo>
+    </cd>
+    <cd>
+        <titulo> Todas las mujeres que habitan en mí </titulo>
+        <artista> Vanesa Martín </artista>
+        <cancion tiempo="348"> De tus ojos </cancion>
+        <cancion tiempo="350"> Abril </cancion>
+        <cancion tiempo="320"> El intento </cancion>
+        <cancion tiempo="427"> En el aire </cancion>
+        <cancion tiempo="339"> Desobedecerme </cancion>
+        <cancion tiempo="401"> Al mismo tiempo </cancion>
+        <sello> Warner Music Spain </sello>
+        <anyo> 2018 </anyo>
+    </cd>
+    <cd>
+        <titulo> El último tour del mundo </titulo>
+        <artista> Bad Bunny </artista>
+        <cancion tiempo="245"> El mundo es mio </cancion>
+        <cancion tiempo="210"> Te mudaste </cancion>
+        <cancion tiempo="242"> Hoy cobré </cancion>
+        <cancion tiempo="334"> Maldita pobreza </cancion>
+        <cancion tiempo="323"> La noche de anoche </cancion>
+        <cancion tiempo="220"> Te deseo lo mejor </cancion>
+        <cancion tiempo="323"> 120 </cancion>
+        <sello> Legendury Beatz </sello>
+        <anyo> 2020 </anyo>
+    </cd>
+    <cd>
+        <titulo> Maldiciones </titulo>
+        <artista >Maka </artista>
+        <cancion tiempo="317"> Pena penita pena </cancion>
+        <cancion tiempo="343"> Nunca lo superare </cancion>
+        <cancion tiempo="255"> El motivo </cancion>
+        <cancion tiempo="248"> Algo mejor </cancion>
+        <cancion tiempo="431"> Policia y ladron </cancion>
+        <cancion tiempo="316"> El dinero te vale </cancion>
+        <cancion tiempo="344"> Luna y estrellas </cancion>
+        <sello> Pureza </sello>
+        <anyo> 2020 </anyo>
+    </cd>
+    <cd>
+        <titulo> Spoiler </titulo>
+        <artista> Aitana </artista>
+        <cancion tiempo="309"> Nada sale mal </cancion>
+        <cancion tiempo="243"> Teléfono </cancion>
+        <cancion tiempo="255"> Me quedo </cancion>
+        <cancion tiempo="346"> Vas a quedarte </cancion>
+        <cancion tiempo="320"> Las vegas </cancion>
+        <cancion tiempo="323"> Con la miel en los labios </cancion>
+        <cancion tiempo="337"> Cristal </cancion>
+        <sello> Legendury Beatz </sello>
+        <anyo> 2019 </anyo>
+    </cd>
+</bibliotecacd>
