@@ -12,26 +12,34 @@
 <xsl:template match="libreria">
     <h2>Mi biblioteca</h2>
     <table>
-        <tr bgcolor="#887788">
-            <th>ISBN</th><th>Título</th><th>Autor</th><th>Precio</th><th>Páginas</th>
+        <tr bgcolor="AA0150">
+            <th>ISBN</th>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Precio</th>
+            <th>Páginas</th>
         </tr>
         <xsl:apply-templates select="libro"/>
     </table>
 </xsl:template>
 <xsl:template match="libro">
         <tr>
-           <td><xsl:apply-templates select="ISBN"/></td>
-           <xsl:apply-templates select="titulo"/>
-           <xsl:apply-templates select="autor"/>
-           <td><xsl:value-of select="precio"/></td>
+           <td>
+                <xsl:apply-templates select="ISBN"/>
+            </td>
+                <xsl:apply-templates select="titulo"/>
+                <xsl:apply-templates select="autor"/>
+            <td>
+                <xsl:value-of select="precio"/>
+            </td>
             <xsl:choose>
                 <xsl:when test="numPaginas &gt; 150">
                     <xsl:apply-templates select="numPaginas"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <td>
-                    <xsl:value-of select = "numPaginas"/>
-                </td>  
+                </xsl:when>
+                <xsl:otherwise>
+                    <td>
+                        <xsl:value-of select = "numPaginas"/>
+                    </td>  
                </xsl:otherwise>
             </xsl:choose>
          </tr>
