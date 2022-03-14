@@ -12,7 +12,7 @@
                         <th>Año</th>
                         <th>Canciones</th>
                     </tr>
-                    <xsl:for-each select="bibliotecacd/cd[artista='Bad Bunny']">
+                    <xsl:for-each select="bibliotecacd/cd[artista=' Bad Bunny ']">
                         <tr>
                             <td>
                                 <xsl:value-of select="titulo"/>
@@ -29,6 +29,7 @@
                                 <xsl:value-of select="."/> <br/>
                                 </xsl:for-each>
                             </td>
+                            
                         </tr>
                     </xsl:for-each>
                 </table>

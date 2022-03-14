@@ -13,7 +13,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                         <th>Año</th>
                         <th>Canciones</th>
                     </tr>
-                    <xsl:for-each select="bibliotecacd/cd[sello='Legendury Beatz']">
+                    <xsl:for-each select="bibliotecacd/cd[sello=' Legendury Beatz ']">
                         <tr>
                             <td>
                                 <xsl:value-of select="titulo"/>
