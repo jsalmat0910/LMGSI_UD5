@@ -3,11 +3,9 @@
     <xsl:template match=" / ">
         <xsl:for-each select="root/record">
             <xsl:text>&#xA;</xsl:text>
-            <xsl:value-of select="[id]"/>
+            <xsl:value-of select="title"/>
             <xsl:text>&#xA;</xsl:text>
-            <xsl:value-of select="text/p"/>
-                <xsl:value-of select=" . "/>
-            <xsl:text>&#xA;</xsl:text>
+            <xsl:value-of select="date/@when"/>
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
