@@ -19,40 +19,37 @@
             <th>Precio</th>
             <th>Páginas</th>
         </tr>
-        <xsl:apply-templates select="libro"/>
+        <xsl:apply-templates select="Libro"/>
     </table>
 </xsl:template>
-<xsl:template match="libro">
-        <tr>
-           <td>
-                <xsl:apply-templates select="ISBN"/>
-            </td>
-                <xsl:apply-templates select="titulo"/>
-                <xsl:apply-templates select="autor"/>
-            <td>
-                <xsl:value-of select="precio"/>
-            </td>
-            <xsl:choose>
-                <xsl:when test="numPaginas &gt; 150">
-                    <xsl:apply-templates select="numPaginas"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <td>
-                        <xsl:value-of select = "numPaginas"/>
-                    </td>  
-               </xsl:otherwise>
-            </xsl:choose>
-         </tr>
-    </xsl:template>
-<xsl:template match="titulo">
-        <td bgcolor="#DDEEDD"><xsl:value-of select="."/></td>
+<xsl:template match="Libro">
+    <tr>
+        <td>
+            <xsl:apply-templates select="ISBN"/></td>
+            <xsl:apply-templates select="Título"/>
+            <xsl:apply-templates select="Autor"/>
+            <td><xsl:value-of select="Precio"/> </td>
+        <xsl:choose>
+            <xsl:when test="NumPag &gt;350">
+                <xsl:apply-templates select="NumPag"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <td>
+                    <xsl:value-of select="NumPag"/>
+                </td>
+            </xsl:otherwise>
+        </xsl:choose>
+    </tr>
 </xsl:template>
-<xsl:template match="autor">
-        <td bgcolor="#AABBAA"><xsl:value-of select="."/></td>
+<xsl:template match="Título">
+    <td bgcolor="green"><xsl:value-of select="."/></td>
 </xsl:template>
-<xsl:template match="numPaginas">
-            <td bgcolor="#00ff00">
-                <xsl:value-of select="."/>
-            </td>
+<xsl:template match="Autor">
+    <td bgcolor="blue"><xsl:value-of select="."/></td>
+</xsl:template>
+<xsl:template match="NumPag">
+    <td bgcolor="red">
+        <xsl:value-of select="."/>
+    </td>
 </xsl:template>
 </xsl:stylesheet>

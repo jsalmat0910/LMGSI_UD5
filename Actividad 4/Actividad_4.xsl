@@ -17,11 +17,11 @@
 				<div style="float:left; position:absolute; width:100%;">
 					<h2>Calificaciones de la convocatoria de junio</h2>
 					<table border="3" align="center">
-						<tr class="azul1">
+						<tr class="azul3">
 							<th colspan="3">Datos</th>
 							<th colspan="3">Notas</th>
 						</tr>
-						<tr class="azul2">
+						<tr class="azul1">
 							<th>Nombres</th>
 							<th>Apellidos</th>
 							<th>Tareas</th>
@@ -37,7 +37,7 @@
 	</xsl:template>
 	<xsl:template match="//alumno">
 		<xsl:if test="./@convocatoria='Junio'">
-			<tr class="azul3">
+			<tr class="azul2">
 				<td><xsl:value-of select="nombre"/></td>
 				<td><xsl:value-of select="apellidos"/></td>
 				<td><xsl:value-of select="cuestionarios"/></td>

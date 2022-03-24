@@ -10,77 +10,29 @@
                 <th>ISBN</th>
                 <th>Título</th>
                 <th>Autor</th>
+                <th>Paginas</th>
                 <th>Precio</th>
             </tr>
-            <!--<xsl:for-each select="libreria/libro[precio>10]">-->
-            <!--<xsl:sort select= "precio"/>-->
-           
-            <!--<xsl:if test="precio &gt; 10">-->
-            <!--<xsl:if test="autor = 'A. Ramos Martín' ">-->
-            
-            <xsl:for-each select="libreria/libro">                    
-            <tr>
-               
-              <!--  <xsl:choose>
-                <xsl:when test="precio &lt; 12.50">
-                <td bgcolor="#ff0000">
-                    <xsl:value-of select = "titulo"/>
-                </td>
-                <td bgcolor="#ff0000">
-                    <xsl:value-of select = "autor"/>
-                </td>
-               </xsl:when>
-               <xsl:when test="precio &gt; 25.50">
-                <td bgcolor="#00ff00">
-                    <xsl:value-of select = "titulo"/>
-                </td>
-                <td bgcolor="#00ff00">
-                    <xsl:value-of select = "autor"/>
-                </td>
-               </xsl:when>
-               <xsl:otherwise>
-                <td bgcolor="#0000ff">
-                    <xsl:value-of select = "titulo"/>
-                </td>
-                <td bgcolor="#0000ff">
-                    <xsl:value-of select = "autor"/>
-                </td>
-               </xsl:otherwise>
-            </xsl:choose>-->
-            <xsl:choose>
-                <xsl:when test="precio &gt; 25">
-                    <td bgcolor="#ff0000">
-                        <xsl:value-of select = "ISBN"/>
-                    </td>
-                    <td bgcolor="#ff0000">
-                        <xsl:value-of select = "titulo"/>
-                    </td>
-                    <td bgcolor="#ff0000">
-                        <xsl:value-of select = "autor"/>
-                    </td>
-                    <td bgcolor="#ff0000">
-                        <xsl:value-of select = "precio"/>
-                    </td>    
-                </xsl:when>
-                <xsl:when test="precio &lt; 25">
-                    <td bgcolor="#00ff00">
-                        <xsl:value-of select = "ISBN"/>
-                    </td>    
-                <td bgcolor="#00ff00">
-                        <xsl:value-of select = "titulo"/>
-                    </td>
-                    <td bgcolor="#00ff00">
-                        <xsl:value-of select = "autor"/>
-                    </td>
-                <td bgcolor="#00ff00">
-                    <xsl:value-of select = "precio"/>
-                </td>    
-                </xsl:when>
-            </xsl:choose>         
-            </tr>
-          <!--  </xsl:if>-->
-            <!--</xsl:if>-->
-            </xsl:for-each>
+            <xsl:for-each select="Librería/Libro">
+                <tr>
+                    <xsl:choose>
+                        <xsl:when test="Precio &lt; 8">
+                            <td bgcolor="blue"><xsl:value-of select="ISBN"/></td>
+                            <td bgcolor="blue"><xsl:value-of select="Título"/></td>
+                            <td bgcolor="blue"><xsl:value-of select="Autor"/></td>
+                            <td bgcolor="blue"><xsl:value-of select="NumPag"/></td>
+                            <td bgcolor="blue"><xsl:value-of select="Precio"/></td>
+                        </xsl:when>
+                        <xsl:when test="Precio &gt; 8">
+                            <td bgcolor="yellow"><xsl:value-of select="ISBN"/></td>
+                            <td bgcolor="yellow"><xsl:value-of select="Título"/></td>
+                            <td bgcolor="yellow"><xsl:value-of select="Autor"/></td>
+                            <td bgcolor="yellow"><xsl:value-of select="NumPag"/></td>
+                            <td bgcolor="yellow"><xsl:value-of select="Precio"/></td>
+                        </xsl:when>
+                    </xsl:choose>
+                </tr>
+            </xsl:for-each>   
         </table>
     </body>
 </html>
